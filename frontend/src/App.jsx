@@ -8,11 +8,9 @@ const App = () => {
   return (
     <div>
       <>
-        <Router>
-          <Route exact path='/' Component={<Home />}/>
-          <Route exact path='/serch' Component={<Search />}/>
-          <Route exact path="/videos/:id" Component={Details />} />
-        </Router>
+       <Home />
+       <Search />
+       <Details />
       </>
     </div>
   )
